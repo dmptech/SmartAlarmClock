@@ -1,10 +1,60 @@
 [
   {
-    "version": "0.1.2"
+    "version": "1.0.0"
   },
   {
-    "id": "10076518-4031-4ee0-b083-b3c129a660c3",
-    "name": "d194082b-a732-4726-9b88-a324fc4eaab5",
-    "children": []
+    "uuid": "1a666a14-4ea0-4900-b2be-60e3ab25b4c7",
+    "name": "toto",
+    "description": "",
+    "children": [
+      {
+        "id": "f0434535-9536-4234-98c6-9540c05fdea2",
+        "activated": true,
+        "type": "sequence",
+        "metadata": {
+          "label": "",
+          "itemTemplate": "BTSequenceNode.qml"
+        },
+        "properties": {},
+        "children": [
+          {
+            "id": "a1e9f7c3-712d-41be-a7d9-8d1a6cfd7b47",
+            "activated": true,
+            "type": "condition",
+            "metadata": {
+              "label": "",
+              "itemTemplate": "BTConditionNode.qml"
+            },
+            "properties": {
+              "op1": {
+                "value": "true",
+                "type": "boolean"
+              },
+              "op2": {
+                "value": "true",
+                "type": "boolean"
+              },
+              "op": "=="
+            },
+            "children": []
+          },
+          {
+            "id": "eeaef8e9-4995-49db-bd84-44530b9286de",
+            "activated": true,
+            "type": "action",
+            "metadata": {
+              "label": "",
+              "itemTemplate": "BTActionNode.qml"
+            },
+            "properties": {
+              "name": "",
+              "inputParams": [],
+              "outputParams": []
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 ]
